@@ -1,0 +1,527 @@
+
+
+@media only screen and (min-width: 768px) and (max-width: 1152px){
+
+
+
+	*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+#hébergements{
+		width: 90vw;
+		
+		margin: auto;
+		display: grid;
+		grid-template-columns: 59.36vw 28vw;
+	
+		grid-column-gap: 2.65vw;
+		
+		
+      
+		
+}
+
+
+
+
+h1{
+	font-size: 1.8vw;
+}
+
+h2{
+	font-size: 1.5vw;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 1.29vw;
+	font-weight: normal;
+}
+
+h4{
+	font-size: 1.29vw;
+	font-weight: bold;
+}
+
+p{
+	font-size: 1.29vw;
+	font-weight: normal;
+}
+.a-conteneur h4{
+	font-size: 1.25vw;
+}
+.a-conteneur p{
+	font-size: 1.25vw;
+}
+
+
+
+.filtres{
+	padding-right: 20vw;
+}
+
+
+
+
+
+
+
+/* mise en page , contient la section résultat*/
+
+
+
+/* grille des résultats et de l'aside , augementatio de la taille de du conteur des vignettes augumenté de 20% */
+
+/*.résultats{
+		
+		
+		display: grid;
+		grid-template-columns: 59.36vw 28vw;
+		grid-template-rows:;
+		grid-column-gap: 2.65vw;
+		grid-template-areas: 
+		
+		
+}*/
+
+
+.boite-hébergements{
+	display: grid;
+	
+	grid-column: 1/2;
+	grid-row: 1/4;
+	grid-template-columns: 59.36vw;
+	grid-template-rows: 6.02vw 58.45vw 6.02vw;
+	border-radius: 1vw;
+	box-shadow: 0.5vw 0.5vw 0.5vw black;
+	
+
+
+}
+
+.boite-aside{
+	display: grid;
+	
+	grid-column: 2/3;
+	grid-row: 1/4;
+	grid-template-columns: 28.0vw;
+	grid-template-rows: 6.02vw 58.45vw 6.02vw ;
+	border-radius: 1vw;
+	box-shadow: 0.5vw 0.5vw 0.5vw black;
+
+}
+
+
+.item{
+
+	border: 0.25vw solid white;
+	border-radius: 1vw;
+}
+
+/* déclaration des différents contenus de la grille des résultats : 
+    titre Hébergements, titre populaire, Résultats, aside populaire et titre afficher plus. */
+
+
+.t-résultats{
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.titre{
+	align-self: center;
+	margin-left:2.65vw;
+	
+}
+
+.titre-boites{
+	align-self: center;
+	margin-left:1.21vw;
+}
+
+.t-populaires{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	
+}
+
+
+.t-afficher{
+	grid-column: 1/2;
+	grid-row: 3/4;
+	
+}
+
+
+/* Griille des vignettes et images du conteneur résultas les tailles des vignettes et du conteur ontété auguementé de 20%*/
+
+.r-conteneur{
+		grid-column: 1/2;
+		grid-row: 2/3;
+		display: grid;
+		grid-template-columns: repeat(2, 25.565vw);
+		
+		grid-template-rows:  18.07vw 18.07vw 18.07vw;
+		grid-column-gap: 2.124vw  ;
+	
+}
+
+.r-conteneur a:hover{
+	color: grey;
+	transition: all 0.2s ease 0s;
+	
+	border: 0vw solid #F2F2F2;
+	box-shadow: 0.4vw 0.4vw 0.4vw #318ce7;
+
+
+}
+
+.r-conteneur a:hover h4{
+	color: grey;
+	font-size: 1.45vw;
+	
+	transition: all 0.2s ease 0s;
+
+
+}
+
+.r-conteneur a:hover p{
+	color: grey;
+	font-size: 1.45vw;
+	
+	transition: all 0.2s ease 0s;
+
+
+}
+.r-conteneur a:hover i{
+	color:#318ce7;
+	font-size: 1.35vw;
+	
+	transition: all 0.2s ease 0s;
+
+
+}
+
+.a-conteneur a:hover h4{
+	color: grey;
+	font-size: 1.3vw;
+	
+	transition: all 0.2s ease 0s;
+
+
+}
+
+.a-conteneur a:hover p{
+	color: grey;
+	font-size: 1.3vw;
+	
+	transition: all 0.2s ease 0s;
+
+
+}
+.a-conteneur a:hover i{
+	color:gold;
+	font-size: 1.25vw;
+	
+	transition: all 0.2s ease 0s;
+
+
+}
+
+
+/* les titres du conteneur résultats */
+
+.t-résultats .titre{
+	align-self: center;
+	margin-left: 3%;
+	
+}
+
+.t-afficher .titre{
+
+	align-self: center;
+	margin-left: 3%;
+
+}
+
+
+
+.t-populaires .titre{
+	display: grid;
+	align-self: center;
+	margin-left:5%;
+
+}
+
+
+/* les boites de l'aside les tailles des vignettes et du conteneur aside ont été auguementé de 20% */
+
+.a-conteneur{
+	grid-column: 1/2;
+	grid-row: 2/3;
+	display: grid;
+	justify-content: center;
+	display: grid;
+	grid-template-columns:23.03vw;
+	grid-template-rows: 18.07vw 18.07vw 18.07vw; 
+	grid-row-gap: 2.124vw;
+	
+	
+}
+
+
+.vignette-g-a{
+  
+  width: 100%;
+  height: 65%;
+  border-bottom-left-radius: 0vw;
+  border-top-right-radius: 1vw;
+  
+
+}
+
+
+
+.caption-a {      
+  display: grid;
+  width: 100%;  
+  height:0;
+  padding-left: 0.5vw;
+  
+  overflow: hidden;
+  text-align: bottom;
+  justify-content: left ;
+  transform: translate(0%,0%);
+  background-color: rgba(255,255,255, 0.4);
+
+   
+}
+
+
+.hotel-a{
+	padding-top: 0.25vw;
+	padding-bottom: 0.25vw;
+
+}
+.tarif-a{
+	
+	padding-bottom: 0.25vw;
+
+}
+
+.item-as{
+	 
+	border:0.25vw solid white;
+	border-radius:1vw;
+
+
+}
+
+.element-g{ 
+   width: 100% ;             
+    background-color: white;
+
+    
+}
+
+.vignette-g{
+  
+  width: 100%;
+  
+}
+
+
+
+.caption {      
+  display: grid;
+  width: 100%;  
+  height:0;
+  padding-left:0.5vw;
+  padding-bottom: 22.5%;
+  overflow: hidden;
+  text-align: bottom;
+  justify-content: left ;
+  transform: translate(0%,-0%);
+  background-color: rgba(255,255,255, 0.4);
+ 
+  
+}
+
+
+
+
+
+/* media activités tablette */
+
+#activités{
+	width: 90vw;
+	height: auto;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 9fr 8fr 9fr;
+	grid-template-rows:2.48vw repeat(5, 10.5vw) ;
+	grid-column-gap: 1.77vw;
+	grid-row-gap: 1.77vw;
+        
+		
+}
+
+#activités a:hover{
+	transition: all 0.2s ease 0s;
+	color: #318ce7;
+	box-shadow: 0.75vw 0.75vw 0.75vw #318ce7; 
+}
+
+#activités a:hover h4{
+	transition: all 0.2s ease 0s;
+	font-size: 1.35vw; 
+}
+
+
+.item-ac-t{
+		
+	grid-column: 1/4;
+	grid-row: 1/2;
+
+}
+
+.item-ac1 {
+	
+	grid-column: 1/2;
+	grid-row: 2/5;
+
+
+}
+.item-ac2 {
+	
+	
+	grid-column: 2/3;
+	grid-row: 2/4;
+}
+.item-ac3 {
+	
+	grid-column: 2/3;
+	grid-row: 4/7;
+}
+.item-ac4 {
+	
+	grid-column: 3/4;
+	grid-row: 2/5;
+}
+
+.item-ac5 {
+	
+	grid-column: 1/2;
+	grid-row: 5/7;
+
+}
+
+.item-ac6 {
+
+	grid-column: 3/4;
+	grid-row: 5/7;
+
+}
+
+
+
+.vignette-g-ac1{
+  display: grid;
+  width: 100%;
+  height: 32.83vw;
+ 
+  border-top-left-radius: 1vw;
+  border-top-right-radius:1vw ;
+  
+  
+
+}
+
+.vignette-g-ac2{
+  display: grid;
+  width: 100%;
+  height: 20.56vw;
+ 
+  border-top-left-radius: 1vw;
+  border-top-right-radius:1vw ;
+  
+  
+
+}
+.vignette-g-ac3{
+  display: grid;
+  width: 100%;
+  height: 32.83vw;
+ 
+  border-top-left-radius: 1vw;
+  border-top-right-radius:1vw ;
+  
+  
+
+}
+
+.vignette-g-ac4{
+  display: grid;
+  width: 100%;
+  height: 32.83vw;
+ 
+  border-top-left-radius: 1vw;
+  border-top-right-radius:1vw ;
+  
+  
+
+}
+
+.vignette-g-ac5{
+  display: grid;
+  width: 100%;
+  height: 20.56vw;
+
+  border-top-left-radius: 1vw;
+  border-top-right-radius:1vw ;
+  
+  
+
+}
+.vignette-g-ac6{
+  display: grid;
+  width: 100%;
+  height: 20.56vw;
+ 
+  border-top-left-radius: 1vw;
+  border-top-right-radius:1vw ;
+  
+  
+
+}
+
+.caption-ac{  
+  
+  border-radius:0vw; 
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;  
+  align-content: center;  
+  display: grid;
+  width: 100.1%;  
+  height:4.09vw;
+  padding-left: 1vw;
+  
+  overflow: hidden;
+  text-align: bottom;
+  justify-content: left ;
+  transform: translate(0%,-2vw);
+  background-color: rgba(255,255,255, 1);
+
+  
+  
+}
+
+
+
+}
+
+
