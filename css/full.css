@@ -202,7 +202,8 @@ transition: all 0.25s ease 0s;
 .filtres a{
 
 	display: flex;
-	border: 0.15vw solid #F2F2F2; 
+	border: 0.15vw solid #F2F2F2;
+	border-left: none;
 	padding: 0vw 1vw 0vw 0vw;
 	height: 3vw;
 	align-items: center;
