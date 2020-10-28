@@ -170,13 +170,12 @@ h1{
 }
 
 h2{
-	font-size: 2.3vw;
-	font-weight: bold;
+	font-size: 6.15vw;
 }
 
 h3{
-	font-size: 2.1vw;
-	font-weight: normal;
+	font-size: 2.3vw;
+	font-weight: bold;
 }
 
 h4{
@@ -312,7 +311,7 @@ transition: all 0.3s ease 0s;
     
 }
 
-.filtres h2{
+.filtres h3{
 	font-size: 4.7vw;
 	margin: auto;
 }
