@@ -5,11 +5,6 @@
   
 }
 
-
-
-
-
-
 body{
   width: 100%;
   height:auto;
@@ -18,14 +13,11 @@ body{
 }
 
 @font-face {
-    font-family: '';
     font-family: 'Raleway_400';
-    src: url('');
     src: url('./font/Raleway_400.ttf');
 }
 
 /* entête centrage */
-
 
 h1{
 	font-size: 1.5vw;
@@ -55,8 +47,6 @@ a{
 	text-decoration: none;
 	color: black;
 }
-
-
 
 header{
 	width: 90vw;
@@ -92,8 +82,6 @@ border-top:0.2vw solid #0065FC;
 
 }
 
-
-
 /* logo + lien d'accueil */
 
 .logo{
@@ -107,12 +95,7 @@ border-top:0.2vw solid #0065FC;
    height:5vw;
    display: grid;
    grid-area:logo;	
-   /*padding-top: 20px;*/
-	
 }
-
-
-
 
 /* centrage de l'intro */
 .intro{
@@ -128,8 +111,6 @@ border-top:0.2vw solid #0065FC;
 	margin-top:0.5vw;
 }
 
-
-
 .boitederecherche{
 	width: 90vw;
 	margin: auto;
@@ -138,7 +119,6 @@ border-top:0.2vw solid #0065FC;
 	display: flex;
 	
 }
-
 
 .icon-Position{
 	display: flex;
@@ -153,7 +133,6 @@ border-top:0.2vw solid #0065FC;
     background-color:  #F2F2F2;
 }
 
-
 input{
 	height: 3vw;
 	font-size: 1.2vw;
@@ -161,7 +140,6 @@ input{
 	border: 0.15vw solid #F2F2F2;
 
 }
-
 
 .bouton a {
 position: relative;
@@ -179,7 +157,6 @@ transition: all 0.25s ease 0s;
 }
 
 .bouton a:hover {
-
  background-color: #318ce7;
 }
 
@@ -193,27 +170,18 @@ background-color: #c0c0c0;
 transition: all 0.25s ease 0s;
 }
 
-
-
-
-
 .bouton {
 	position: relative;
-	
-
 }
+
 #Rechercher {
 	position: absolute;
 	z-index: 1;
-
 }
+
 #bouton2 {
-
 	display: none;
-	
 }
-
-
 
 .filtres{
 	width: 90vw;
@@ -222,7 +190,6 @@ transition: all 0.25s ease 0s;
 	margin: auto;
 	display:flex;
 	font-weight: bold;
-
 }
 
 .item-f{
@@ -231,6 +198,7 @@ transition: all 0.25s ease 0s;
 	align-items: center;
 	justify-content: center;
 }
+
 .filtres a{
 
 	display: flex;
@@ -241,18 +209,6 @@ transition: all 0.25s ease 0s;
 	justify-content: center;
 	border-radius: 50vw;
 }
-
-
-
-/*.item-f1{
-	display: flex;
-	border: 0.15vw solid #F2F2F2; 
-	padding: 0vw 1vw 0vw 0vw;
-	height: 3vw;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50vw;
-}*/
 
 .filtres i{
 	color: #0065FC;
@@ -265,49 +221,13 @@ transition: all 0.25s ease 0s;
     justify-content:center;
     margin-right: 0.5vw;
     background-color: #DEEBFF;
-
-    
 }
-
-/*.item-f2{
-	display: flex;
-	border: 0.15vw solid #F2F2F2; 
-   	padding: 0vw 1vw 0vw 0vw;
-	height: 3vw;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50vw;
-}
-.item-f3{
-	display: flex;
-	border: 0.15vw solid #F2F2F2; 
-	padding: 0vw 1vw 0vw 0vw;
-	height: 3vw;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50vw;
-}
-.item-f4{
-	display: flex;
-	border: 0.15vw solid #F2F2F2; 
-	padding: 0vw 1vw 0vw 0vw;
-	height: 3vw;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50vw;
-}*/
-
-
 
 .filtres a:hover{
 	transition: all 0.2s ease 0s;
 	color: #318ce7;
-	
 	box-shadow: 0.5vw 0.5vw 0.5vw #318ce7; 
 }
-
-
-
 
 #nombrehébergement{
 	display: flex;
@@ -316,8 +236,8 @@ transition: all 0.25s ease 0s;
 	margin-top: 2vw;
 	margin-bottom: 2vw;
 	align-items: center;
-
 }
+
 #nombrehébergement i{
 	display: flex;
     border: 0.15vw solid #F2F2F2;
@@ -338,12 +258,11 @@ img{
 /* mise en page , contient la section résultat hébergements*/
 
 #hébergements{
-		width: 90vw;
-		margin: auto;
-		display: grid;
-		grid-template-columns: 59.36vw 28.0vw  ;
-		grid-column-gap: 2.65vw;
- 		
+	width: 90vw;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 59.36vw 28.0vw  ;
+	grid-column-gap: 2.65vw;
 }
 
 .boite-hébergements{
@@ -355,8 +274,6 @@ img{
 	grid-template-rows: 6.02vw 29.44vw 7.08vw ;
 	border-radius: 1vw;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
-
-
 }
 
 .boite-aside{
@@ -368,7 +285,6 @@ img{
 	grid-template-rows: 6.02vw 36.52vw ;
 	border-radius: 1vw;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
-
 }
 
 
@@ -379,81 +295,59 @@ img{
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
 	z-index: 1;
 }
+
 .r-conteneur a:hover{
 	color: grey;
 	transition: all 0.2s ease 0s;
-	
 	border: 0vw solid #F2F2F2;
 	box-shadow: 0.35vw 0.35vw 0.35vw #318ce7;
-
-
 }
+
 .r-conteneur a:hover h4{
 	color: grey;
 	font-size: 1.05vw;
-	
 	transition: all 0.2s ease 0s;
-
-
 }
 
 .r-conteneur a:hover p{
 	color: grey;
 	font-size: 1.05vw;
-	
 	transition: all 0.2s ease 0s;
-
-
 }
 
 .r-conteneur a:hover i{
 	color:#318ce7;
 	font-size: 1.05vw;
-	
-	transition: all 0.2s ease 0s;
-
-
+    transition: all 0.2s ease 0s;
 }
 
 .a-conteneur a:hover{
 	color: grey;
 	transition: all 0.2s ease 0s;
-	
 	border: 0vw solid #F2F2F2;
 	box-shadow: 0.35vw 0.35vw 0.35vw gold;
-
-
 }
+
 .a-conteneur a:hover h4{
 	color: grey;
 	font-size: 1.05vw;
-	
 	transition: all 0.2s ease 0s;
-
-
 }
 
 .a-conteneur a:hover p{
 	color: grey;
 	font-size: 1.05vw;
-	
 	transition: all 0.2s ease 0s;
-
-
 }
 
 .a-conteneur a:hover i{
 	color:gold;
 	font-size: 1.05vw;
-	
 	transition: all 0.2s ease 0s;
-
-
 }
+
 /* déclaration des différents contenus de la grille des résultats : 
     titre Hébergements, titre populaire, Résultats, aside populaire et titre afficher plus. */
-
-
 .t-résultats{
 	border-top-left-radius:1vw;
 	border-top-right-radius:1vw;
@@ -464,7 +358,6 @@ img{
 }
 
 .t-populaires{
-
 	border-top-left-radius:1vw;
 	border-top-right-radius:1vw;
 	display: grid;
@@ -490,33 +383,24 @@ img{
 	background-color: #F2F2F2;
 	grid-column: 1/2;
 	grid-row: 3/4;
-	
-
 }
 
 
 /* Grille des vignettes et images du conteneur résultas*/
 
-.r-conteneur{
-		
+.r-conteneur{		
 	background-color: #F2F2F2;
 	grid-column: 1/2;
 	grid-row: 2/3;
-
-
-		align-self: center;
-		justify-content: center;
-		display: grid;
-		grid-template-columns: repeat(3, 16.65vw);
-		grid-template-rows: 13.73vw 13.73vw;
-		grid-column-gap: 1.99vw  ;
-		grid-row-gap: 1.99vw;
-		
+	align-self: center;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(3, 16.65vw);
+	grid-template-rows: 13.73vw 13.73vw;
+	grid-column-gap: 1.99vw  ;
+	grid-row-gap: 1.99vw;
 }
-
-
 /* les titres du conteneur résultats */
-
 .titre{
 	display: inline-grid;
 	align-self: center;
@@ -540,11 +424,7 @@ img{
 .t-afficher a:hover{
 	transition: all 0.2s ease 0s;
 	color: #318ce7;
-	
-	
 }
-
-
 
 .rating {
 	display:flex;
@@ -558,14 +438,8 @@ img{
 	color: #0065FC;
 	font-size: 1vw;
 	padding-top: 0.1vw;
-
 }
-
-
-
-
 /* les boites de l'aside */
-
 .a-conteneur{
 	display: grid;
 	justify-content: center;
@@ -573,16 +447,11 @@ img{
 	grid-template-columns:22.7vw;
 	grid-template-rows: 9.96vw 9.96vw 9.96vw;
 	grid-row-gap: 2.21vw;
-
 	border-bottom-left-radius: 1vw;
 	border-bottom-right-radius: 1vw;
-	
 	background-color: #F2F2F2;
 	grid-column: 1/2;
 	grid-row: 2/3;
-
-
-	
 }
 
 .item-as{
@@ -592,6 +461,7 @@ img{
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
 
 }
+
 .item-as2{
 	background-color: white;
 	border: 0.25vw solid white;
@@ -604,55 +474,39 @@ img{
 	border: 0.25vw solid white;
 	border-radius: 1vw;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
-
 }
 
-
-
-
 .vignette-g{
-  
-  width: 100%;
-  height: 65%;
-  border-top-left-radius: 0.70vw;
-  border-top-right-radius:0.70vw ;
-  
-  
-
+    width: 100%;
+    height: 65%;
+    border-top-left-radius: 0.70vw;
+    border-top-right-radius:0.70vw ;
 }
 
 .caption {    
-   
-  display: grid;
-  width: 100%;  
-  height:0;
-  padding-left: 0.5vw;
-  padding-bottom: 27%;
-  overflow: hidden;
-  text-align: bottom;
-  border-radius: 1vw;
-  justify-content: left ;
-  transform: translate(0%,0%);
-  background-color: rgba(255,255,255, 0.4);
- 
-  
+    display: grid;
+    width: 100%;  
+    height:0;
+    padding-left: 0.5vw;
+    padding-bottom: 27%;
+    overflow: hidden;
+    text-align: bottom;
+    border-radius: 1vw;
+    justify-content: left ;
+    transform: translate(0%,0%);
+    background-color: rgba(255,255,255, 0.4);
 }
-
 
 .hotel{
 	padding-top: 0.1vw;
 	padding-bottom: 0.2vw;
-
 }
+
 .tarif{
-	
 	padding-bottom: 0.2vw;
-
 }
-
 
 .element-g-a{									/*contneur des vignettes images et textes des plus populaires*/
-	
 	display: grid;
 	width: 100%;
 	border: 5px solid white;
@@ -665,105 +519,82 @@ img{
 	height: 100%;
 	border-top-left-radius:0.85vw;
 	border-bottom-left-radius:0.85vw;
-	
 }
-
 
 .caption-a {
-
-  border-radius: 0.5vw;
-  width:10vw;  
-  height:99%;
-  padding-bottom: 24.5%;
-  overflow: hidden;
-  padding-top: 0.15vw;
-  justify-content: left ;
-  transform: translate(100%,-103.5%);
-  background-color: rgba(255,255,255, 0.4);
-  
+    border-radius: 0.5vw;
+    width:10vw;  
+    height:99%;
+    padding-bottom: 24.5%;
+    overflow: hidden;
+    padding-top: 0.15vw;
+    justify-content: left ;
+    transform: translate(100%,-103.5%);
+    background-color: rgba(255,255,255, 0.4);
 }
 
-
-
 .hotel-a{
-
 	padding-bottom: 0.75vw;
 }
 
 .tarif-a{
-	
 	padding-bottom: 3.25vw;
-
 }
-
-
-
 /* Ici section activités */
-
-
-
 #activités{
 	padding-top: 2.65vw;
 	width: 90vw;
 	height: auto;
 	margin: auto;
-    
     display: grid;
 	grid-template-columns: repeat(4, 20.51vw);
 	grid-template-rows: 3.98vw 13.73vw 2.65vw 2.65vw 11.5vw;
 	grid-column-gap: 2.65vw;
-		
 }
 
 #activités a:hover{
 	transition: all 0.2s ease 0s;
 	color: #318ce7;
-	
 	box-shadow: 0.5vw 0.5vw 0.5vw #318ce7; 
 }
+
 #activités a:hover h4{
 	transition: all 0.2s ease 0s;
 	font-size: 1.1vw; 
 }
-
-
 
 .item-ac-t{
 	align-content: center;
 	display: grid;
 	grid-column: 1/5;
 	grid-row: 1/2;
-
 }
 
 .item-ac1 {
-	
 	border-radius: 1vw;
 	display: grid;
 	grid-column: 1/2;
 	grid-row: 2/6;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
-    
-
 }
-.item-ac2 {
 
+.item-ac2 {
 	border-radius: 1vw;
 	display: grid;
 	grid-column: 2/3;
 	grid-row: 2/4;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
 }
+
 .item-ac3 {
-	
 	border-radius: 1vw;
 	display: grid;
 	grid-column: 2/3;
 	grid-row: 5/6;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
 }
-.item-ac4 {
 
+.item-ac4 {
 	border-radius: 1vw;
 	display: grid;
 	grid-column: 3/4;
@@ -772,112 +603,81 @@ img{
 }
 
 .item-ac5 {
-	
 	border-radius: 1vw;
 	display: grid;
 	grid-column: 4/5;
 	grid-row: 2/3;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
-
 }
 
 .item-ac6 {
-	
-	
 	border-radius: 1vw;
 	display: grid;
 	grid-column: 4/5;
 	grid-row: 4/6;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
-    
 }
 
 .vignette-g-ac1{
   display: grid;
   width: 100%;
   height: 26.54vw;
- 
   border-top-left-radius: 1vw;
   border-top-right-radius:1vw ;
-  
-  
-
 }
 
 .vignette-g-ac2{
   display: grid;
   width: 100%;
   height: 12.4vw;
- 
   border-top-left-radius: 1vw;
   border-top-right-radius:1vw ;
-  
-  
-
 }
+
 .vignette-g-ac3{
   display: grid;
   width: 100%;
   height: 7.52vw;
- 
   border-top-left-radius: 1vw;
   border-top-right-radius:1vw ;
-  
-  
-
 }
 
 .vignette-g-ac4{
   display: grid;
   width: 100%;
   height: 26.54vw;
- 
   border-top-left-radius: 1vw;
   border-top-right-radius:1vw ;
-  
-  
-
 }
 
 .vignette-g-ac5{
   display: grid;
   width: 100%;
   height: 9.75vw;
-
   border-top-left-radius: 1vw;
   border-top-right-radius:1vw ;
-  
-  
-
 }
+
 .vignette-g-ac6{
   display: grid;
   width: 100%;
   height: 10.17vw;
- 
   border-top-left-radius: 1vw;
   border-top-right-radius:1vw ;
-  
-  
-
 }
 
 .caption-ac{  
-  
   border-radius:1vw;  
   align-content: center;  
   display: grid;
   width: 100%;  
   height:4.0vw;
   padding-left: 1vw;
- 
   overflow: hidden;
   text-align: bottom;
   justify-content: left ;
   transform: translate(0%,0%);
   background-color: rgba(255,255,255, 0.4);
-  
-  
 }
 
 footer{
@@ -887,6 +687,7 @@ footer{
 	display: flex;
    	background-color: #F2F2F2;
 }
+
 footer li{
 	padding-right: 10.5vw;
 	margin-left: 5vw;
@@ -895,20 +696,18 @@ footer li{
 }
 
 footer nav{
-
 	display: flex;
-
 }
-footer ul{
 
+footer ul{
 	padding-top:1.25vw;
 }
 
 footer a{
 	color: black;
 	text-decoration:none;
-
 }
+
 footer nav a:hover{
 	color: #0065FC;
 }
