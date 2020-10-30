@@ -368,19 +368,18 @@ transition: all 0.3s ease 0s;
 }
 
 .t-populaires{
-	margin-left: -2.65vw;
+	align-self: center;
+	margin-left: -0.1vw;
 }
 
-.t1{
+.t-populaires i{
 	position:relative;
-	display: inline-grid;
-	margin: auto;
+	margin-left: 20vw;
 	align-self: center;
-	margin-right: 4.42vw;
 	font-size: 5.75vw;
 }
 
-.boite-aside{
+aside{
 	margin-top: 2.65vw;
 	justify-content: center;
 	display: grid;

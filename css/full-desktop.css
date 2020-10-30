@@ -69,16 +69,16 @@ header{
 }
 
 .links a{
-padding: 0vw 1.25vw 0vw 1.25vw;
-padding-top: 1vw;
-border:0.2vw solid white;
-align-items: center;
-transition: all 0.3s ease 0s;
-}
+	padding: 0vw 1.25vw 0vw 1.25vw;
+	padding-top: 1vw;
+	border:0.2vw solid white;
+	align-items: center;
+	transition: all 0.3s ease 0s;
+	}
 
 .links a:hover{
-color: #0065FC;
-border-top:0.2vw solid #0065FC;
+	color: #0065FC;
+	border-top:0.2vw solid #0065FC;
 
 }
 
@@ -277,24 +277,59 @@ img{
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
 }
 
-.boite-aside{
+.t-résultats{
+	border-top-left-radius:1vw;
+	border-top-right-radius:1vw;
 	display: grid;
 	background-color: #F2F2F2;
-	grid-column: 2/3;
-	grid-row:1/2;
-	grid-template-columns: 28.0vw;
-	grid-template-rows: 6.02vw 36.52vw ;
-	border-radius: 1vw;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
+	grid-column: 1/5;
+	grid-row: 1/2;
 }
 
+.titre{
+	display: inline-grid;
+	align-self: center;
+	margin-left:2.65vw;
+}
 
-.item{
-	background-color: white;
-	border: 0.25vw solid white;
-	border-radius: 1vw;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
-	z-index: 1;
+.titre-boites i{
+	display: flex;
+	margin-right:-2vw;
+	align-self: center;
+}
+
+.titre-boites{
+	display:grid;
+	grid-auto-flow: column;
+	align-self: center;
+	
+}
+
+.t-afficher{
+	border-bottom-left-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	display: grid;
+	background-color: #F2F2F2;
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+
+.t-afficher a:hover{
+	transition: all 0.2s ease 0s;
+	color: #318ce7;
+}
+
+.r-conteneur{		
+	background-color: #F2F2F2;
+	grid-column: 1/2;
+	grid-row: 2/3;
+	align-self: center;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(3, 16.65vw);
+	grid-template-rows: 13.73vw 13.73vw;
+	grid-column-gap: 1.99vw  ;
+	grid-row-gap: 1.99vw;
 }
 
 .r-conteneur a:hover{
@@ -322,161 +357,13 @@ img{
     transition: all 0.2s ease 0s;
 }
 
-.a-conteneur a:hover{
-	color: grey;
-	transition: all 0.2s ease 0s;
-	border: 0vw solid #F2F2F2;
-	box-shadow: 0.35vw 0.35vw 0.35vw gold;
-}
-
-.a-conteneur a:hover h4{
-	color: grey;
-	font-size: 1.05vw;
-	transition: all 0.2s ease 0s;
-}
-
-.a-conteneur a:hover p{
-	color: grey;
-	font-size: 1.05vw;
-	transition: all 0.2s ease 0s;
-}
-
-.a-conteneur a:hover i{
-	color:gold;
-	font-size: 1.05vw;
-	transition: all 0.2s ease 0s;
-}
-
-/* déclaration des différents contenus de la grille des résultats : 
-    titre Hébergements, titre populaire, Résultats, aside populaire et titre afficher plus. */
-.t-résultats{
-	border-top-left-radius:1vw;
-	border-top-right-radius:1vw;
-	display: grid;
-	background-color: #F2F2F2;
-	grid-column: 1/5;
-	grid-row: 1/2;
-}
-
-.t-populaires{
-	border-top-left-radius:1vw;
-	border-top-right-radius:1vw;
-	display: grid;
-	background-color: #F2F2F2;
-	grid-column:1/2;
-	grid-row: 1/2;
-}
-
-
-.t1{
-	position:relative;
-	display: inline-grid;
-	margin: auto;
-	align-self: center;
-	margin-right: 4.42vw;
-	font-size: 1.75vw;
-}
-
-.t-afficher{
-	border-bottom-left-radius: 1vw;
-	border-bottom-right-radius: 1vw;
-	display: grid;
-	background-color: #F2F2F2;
-	grid-column: 1/2;
-	grid-row: 3/4;
-}
-
-
-/* Grille des vignettes et images du conteneur résultas*/
-
-.r-conteneur{		
-	background-color: #F2F2F2;
-	grid-column: 1/2;
-	grid-row: 2/3;
-	align-self: center;
-	justify-content: center;
-	display: grid;
-	grid-template-columns: repeat(3, 16.65vw);
-	grid-template-rows: 13.73vw 13.73vw;
-	grid-column-gap: 1.99vw  ;
-	grid-row-gap: 1.99vw;
-}
-/* les titres du conteneur résultats */
-.titre{
-	display: inline-grid;
-	align-self: center;
-	margin-left:2.65vw;
-}
-
-.titre-boites i{
-	display: flex;
-	margin-right:-2vw;
-	align-self: center;
-}
-
-.titre-boites{
-	display:grid;
-	grid-auto-flow: column;
-	align-self: center;
-	
-}
-
-
-.t-afficher a:hover{
-	transition: all 0.2s ease 0s;
-	color: #318ce7;
-}
-
-.rating {
-	display:flex;
-	color: #0065FC;
-	font-size: 1vw;
-	padding-top: 0.1vw;
-
-}
-.rating-a {
-	display:flex;
-	color: #0065FC;
-	font-size: 1vw;
-	padding-top: 0.1vw;
-}
-/* les boites de l'aside */
-.a-conteneur{
-	display: grid;
-	justify-content: center;
-	display: grid;
-	grid-template-columns:22.7vw;
-	grid-template-rows: 9.96vw 9.96vw 9.96vw;
-	grid-row-gap: 2.21vw;
-	border-bottom-left-radius: 1vw;
-	border-bottom-right-radius: 1vw;
-	background-color: #F2F2F2;
-	grid-column: 1/2;
-	grid-row: 2/3;
-}
-
-.item-as{
+.item{
 	background-color: white;
 	border: 0.25vw solid white;
 	border-radius: 1vw;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
-
+	z-index: 1;
 }
-
-.item-as2{
-	background-color: white;
-	border: 0.25vw solid white;
-	border-radius: 1vw;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
-
-}
-.item-as3{
-	background-color: white;
-	border: 0.25vw solid white;
-	border-radius: 1vw;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
-}
-
 .vignette-g{
     width: 100%;
     height: 65%;
@@ -507,8 +394,98 @@ img{
 	padding-bottom: 0.2vw;
 }
 
-.element-g-a{									/*contneur des vignettes images et textes des plus populaires*/
+.rating {
+	display:flex;
+	color: #0065FC;
+	font-size: 1vw;
+	padding-top: 0.1vw;
+
+}
+
+aside{
 	display: grid;
+	background-color: #F2F2F2;
+	grid-column: 2/3;
+	grid-row:1/2;
+	grid-template-columns: 28.0vw;
+	grid-template-rows: 6.02vw 36.52vw ;
+	border-radius: 1vw;
+	box-shadow: 0.5vw 0.5vw 0.5vw black;
+}
+
+.t-populaires{
+	border-top-left-radius:1vw;
+	border-top-right-radius:1vw;
+	line-height: 6.02vw;
+	display: grid;
+	grid-auto-flow: column;
+	margin-left: 2.65vw;
+	background-color: #F2F2F2;
+	grid-column:1/2;
+	grid-row: 1/2;
+}
+
+.t-populaires i{
+	position: relative;
+	margin-left:4.25vw;
+	
+	line-height: 6.2vw;
+	
+	font-size: 1.75vw;
+}
+
+.a-conteneur{
+	display: grid;
+	justify-content: center;
+	display: grid;
+	grid-template-columns:22.7vw;
+	grid-template-rows: 9.96vw 9.96vw 9.96vw;
+	grid-row-gap: 2.21vw;
+	border-bottom-left-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: #F2F2F2;
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.a-conteneur a:hover{
+	color: grey;
+	transition: all 0.2s ease 0s;
+	border: 0vw solid #F2F2F2;
+	box-shadow: 0.35vw 0.35vw 0.35vw gold;
+}
+
+.a-conteneur a:hover h4{
+	color: grey;
+	font-size: 1.05vw;
+	transition: all 0.2s ease 0s;
+}
+
+.a-conteneur a:hover p{
+	color: grey;
+	font-size: 1.05vw;
+	transition: all 0.2s ease 0s;
+}
+
+.a-conteneur a:hover i{
+	color:gold;
+	font-size: 1.05vw;
+	transition: all 0.2s ease 0s;
+}
+
+/* déclaration des différents contenus de la grille des résultats : 
+    titre Hébergements, titre populaire, Résultats, aside populaire et titre afficher plus. */
+/* les boites de l'aside */
+
+.item-as{
+	background-color: white;
+	border: 0.25vw solid white;
+	border-radius: 1vw;
+	box-shadow: 0.5vw 0.5vw 0.5vw black;
+
+}
+
+.element-g-a{									/*contneur des vignettes images et textes des plus populaires*/
 	width: 100%;
 	border: 5px solid white;
 	background-color: white;
@@ -541,6 +518,13 @@ img{
 .tarif-a{
 	padding-bottom: 3.25vw;
 }
+
+.rating-a {
+	display:flex;
+	color: #0065FC;
+	font-size: 1vw;
+	padding-top: 0.1vw;
+}
 /* Ici section activités */
 #activités{
 	padding-top: 2.65vw;
@@ -566,14 +550,12 @@ img{
 
 .item-ac-t{
 	align-content: center;
-	display: grid;
 	grid-column: 1/5;
 	grid-row: 1/2;
 }
 
 .item-ac1 {
 	border-radius: 1vw;
-	display: grid;
 	grid-column: 1/2;
 	grid-row: 2/6;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
@@ -581,7 +563,6 @@ img{
 
 .item-ac2 {
 	border-radius: 1vw;
-	display: grid;
 	grid-column: 2/3;
 	grid-row: 2/4;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
@@ -589,7 +570,6 @@ img{
 
 .item-ac3 {
 	border-radius: 1vw;
-	display: grid;
 	grid-column: 2/3;
 	grid-row: 5/6;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
@@ -597,7 +577,6 @@ img{
 
 .item-ac4 {
 	border-radius: 1vw;
-	display: grid;
 	grid-column: 3/4;
 	grid-row: 2/6;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
@@ -605,7 +584,6 @@ img{
 
 .item-ac5 {
 	border-radius: 1vw;
-	display: grid;
 	grid-column: 4/5;
 	grid-row: 2/3;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
@@ -613,14 +591,12 @@ img{
 
 .item-ac6 {
 	border-radius: 1vw;
-	display: grid;
 	grid-column: 4/5;
 	grid-row: 4/6;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
 }
 
 .vignette-g-ac1{
-  display: grid;
   width: 100%;
   height: 26.54vw;
   border-top-left-radius: 1vw;
@@ -628,7 +604,6 @@ img{
 }
 
 .vignette-g-ac2{
-  display: grid;
   width: 100%;
   height: 12.4vw;
   border-top-left-radius: 1vw;
@@ -636,7 +611,6 @@ img{
 }
 
 .vignette-g-ac3{
-  display: grid;
   width: 100%;
   height: 7.52vw;
   border-top-left-radius: 1vw;
@@ -644,7 +618,6 @@ img{
 }
 
 .vignette-g-ac4{
-  display: grid;
   width: 100%;
   height: 26.54vw;
   border-top-left-radius: 1vw;
@@ -652,7 +625,6 @@ img{
 }
 
 .vignette-g-ac5{
-  display: grid;
   width: 100%;
   height: 9.75vw;
   border-top-left-radius: 1vw;
@@ -660,7 +632,6 @@ img{
 }
 
 .vignette-g-ac6{
-  display: grid;
   width: 100%;
   height: 10.17vw;
   border-top-left-radius: 1vw;
@@ -670,9 +641,9 @@ img{
 .caption-ac{  
   border-radius:1vw;  
   align-content: center;  
-  display: grid;
-  width: 100%;  
-  height:4.0vw;
+  width: 99%;  
+  height:3.5vw;
+  line-height: 3.5vw;
   padding-left: 1vw;
   overflow: hidden;
   text-align: bottom;
