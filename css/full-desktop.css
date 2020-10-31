@@ -200,7 +200,6 @@ transition: all 0.25s ease 0s;
 }
 
 .filtres a{
-
 	display: flex;
 	border: 0.15vw solid #F2F2F2;
 	border-left: none;
@@ -209,6 +208,7 @@ transition: all 0.25s ease 0s;
 	align-items: center;
 	justify-content: center;
 	border-radius: 50vw;
+	transition: all 0.45s ease 0s;
 }
 
 .filtres i{
@@ -225,7 +225,7 @@ transition: all 0.25s ease 0s;
 }
 
 .filtres a:hover{
-	transition: all 0.2s ease 0s;
+	font-size:1.5vw;
 	color: #318ce7;
 	box-shadow: 0.5vw 0.5vw 0.5vw #318ce7; 
 }
@@ -357,14 +357,15 @@ img{
     transition: all 0.2s ease 0s;
 }
 
-.item{
+.r-conteneur a{
 	background-color: white;
 	border: 0.25vw solid white;
 	border-radius: 1vw;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
+	transition: all 0.45s ease 0s;
 	z-index: 1;
 }
-.vignette-g{
+.r-conteneur img{
     width: 100%;
     height: 65%;
     border-top-left-radius: 0.70vw;
@@ -476,23 +477,16 @@ aside{
 /* déclaration des différents contenus de la grille des résultats : 
     titre Hébergements, titre populaire, Résultats, aside populaire et titre afficher plus. */
 /* les boites de l'aside */
-
-.item-as{
+.a-conteneur a{		
+	width: 100%;
+	border: 0.3vw solid white;
 	background-color: white;
-	border: 0.25vw solid white;
 	border-radius: 1vw;
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
-
+	transition: all 0.45s ease 0s;
 }
 
-.element-g-a{									/*contneur des vignettes images et textes des plus populaires*/
-	width: 100%;
-	border: 5px solid white;
-	background-color: white;
-	border-radius: 1vw;
-}
-
-.vignette-g-a{								/*images des chambres d'hôtel les plus populaires*/
+.a-conteneur img{
 	width:8.86vw;
 	height: 100%;
 	border-top-left-radius:0.85vw;
@@ -500,13 +494,13 @@ aside{
 }
 
 .caption-a {
-    border-radius: 0.5vw;
+    border-radius:0.5vw;
     width:10vw;  
     height:99%;
-    padding-bottom: 24.5%;
+    padding-bottom:24.5%;
     overflow: hidden;
-    padding-top: 0.15vw;
-    justify-content: left ;
+    padding-top:0.15vw;
+    justify-content:left;
     transform: translate(100%,-103.5%);
     background-color: rgba(255,255,255, 0.4);
 }
@@ -537,14 +531,22 @@ aside{
 	grid-column-gap: 2.65vw;
 }
 
+#activités a{
+	border-radius: 1vw;
+	box-shadow: 0.5vw 0.5vw 0.5vw black;
+	transition: all 0.45s ease 0s;
+}
+
+#activités a h4{
+	transition: all 0.45s ease 0s;
+}
+
 #activités a:hover{
-	transition: all 0.2s ease 0s;
 	color: #318ce7;
 	box-shadow: 0.5vw 0.5vw 0.5vw #318ce7; 
 }
 
 #activités a:hover h4{
-	transition: all 0.2s ease 0s;
 	font-size: 1.1vw; 
 }
 
@@ -555,107 +557,81 @@ aside{
 }
 
 .item-ac1 {
-	border-radius: 1vw;
 	grid-column: 1/2;
 	grid-row: 2/6;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
 }
 
 .item-ac2 {
-	border-radius: 1vw;
 	grid-column: 2/3;
 	grid-row: 2/4;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
 }
 
 .item-ac3 {
-	border-radius: 1vw;
 	grid-column: 2/3;
 	grid-row: 5/6;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
 }
 
 .item-ac4 {
-	border-radius: 1vw;
 	grid-column: 3/4;
 	grid-row: 2/6;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
+	
 }
 
 .item-ac5 {
-	border-radius: 1vw;
 	grid-column: 4/5;
 	grid-row: 2/3;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
 }
 
 .item-ac6 {
-	border-radius: 1vw;
 	grid-column: 4/5;
 	grid-row: 4/6;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
+}
+
+#activités img{
+	width: 100%;
+	border-top-left-radius: 1vw;
+    border-top-right-radius:1vw ;
 }
 
 .vignette-g-ac1{
-  width: 100%;
-  height: 26.54vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
+    height: 26.54vw;
 }
 
 .vignette-g-ac2{
-  width: 100%;
-  height: 12.4vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
+    height: 12.4vw;
 }
 
 .vignette-g-ac3{
-  width: 100%;
-  height: 7.52vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
+    height: 7.52vw;
 }
 
 .vignette-g-ac4{
-  width: 100%;
-  height: 26.54vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
+    height: 26.54vw;
 }
 
 .vignette-g-ac5{
-  width: 100%;
-  height: 9.75vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
+    height: 9.75vw;
 }
 
 .vignette-g-ac6{
-  width: 100%;
-  height: 10.17vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
+    height: 10.17vw;
 }
 
 .caption-ac{  
-  border-radius:1vw;  
-  align-content: center;  
-  width: 99%;  
-  height:3.5vw;
-  line-height: 3.5vw;
-  padding-left: 1vw;
-  overflow: hidden;
-  text-align: bottom;
-  justify-content: left ;
-  transform: translate(0%,0%);
-  background-color: rgba(255,255,255, 0.4);
+	border-radius:1vw;  
+	width: 99%;  
+	height:3.5vw;
+	line-height: 3.5vw;
+	padding-left: 1vw;
+	overflow: hidden;
+	justify-content: left ;
+	background-color: rgba(255,255,255, 0.4);
 }
 
 footer{
 	margin:auto; 
 	margin-top: 2.65vw;
-	height:11vw;
+	height:10vw;
 	display: flex;
    	background-color: #F2F2F2;
 }

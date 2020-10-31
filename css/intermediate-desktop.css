@@ -2,11 +2,6 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1152px){
 
-
-
-
-
-
 h1{
 	font-size: 1.8vw;
 }
@@ -45,6 +40,9 @@ p{
 .filtres{
 	padding-right: 20vw;
 }
+.filtres a:hover{
+	font-size: 2.25vw;
+}
 
 .boite-hébergements{
 	display: grid;
@@ -56,17 +54,7 @@ p{
 	box-shadow: 0.5vw 0.5vw 0.5vw black;
 }
 
-aside{
-	display: grid;
-	grid-column: 2/3;
-	grid-row: 1/4;
-	grid-template-columns: 28.0vw;
-	grid-template-rows: 6.02vw 58.45vw 6.02vw ;
-	border-radius: 1vw;
-	box-shadow: 0.5vw 0.5vw 0.5vw black;
-}
-
-.item{
+.r-conteneur a{
 	border: 0.25vw solid white;
 	border-radius: 1vw;
 }
@@ -130,6 +118,16 @@ aside{
 	transition: all 0.2s ease 0s;
 }
 
+aside{
+	display: grid;
+	grid-column: 2/3;
+	grid-row: 1/4;
+	grid-template-columns: 28.0vw;
+	grid-template-rows: 6.02vw 58.45vw 6.02vw ;
+	border-radius: 1vw;
+	box-shadow: 0.5vw 0.5vw 0.5vw black;
+}
+
 .a-conteneur a:hover h4{
 	color: grey;
 	font-size: 1.3vw;
@@ -166,31 +164,26 @@ aside{
 .a-conteneur{
 	grid-column: 1/2;
 	grid-row: 2/3;
-	display: grid;
 	justify-content: center;
 	display: grid;
 	grid-template-columns:23.03vw;
-	grid-template-rows: 18.07vw 18.07vw 18.07vw; 
+	grid-template-rows:18.07vw 18.07vw 18.07vw; 
 	grid-row-gap: 2.124vw;
 }
 
-.vignette-g-a{
+.a-conteneur img{
   width: 100%;
   height: 65%;
   border-bottom-left-radius: 0vw;
   border-top-right-radius: 1vw;
 }
 
-.caption-a {      
-  display: grid;
+.caption-a{      
   width: 100%;  
-  height:0;
-  padding-left: 0.5vw;
+  height: 0;
+  padding-left:0.5vw;
   overflow: hidden;
-  text-align: bottom;
-  justify-content: left ;
   transform: translate(0%,0%);
-  background-color: rgba(255,255,255, 0.4);
 }
 
 .hotel-a{
@@ -202,18 +195,9 @@ aside{
 	padding-bottom: 0.25vw;
 }
 
-.item-as{
+.a-conteneur a{
 	border:0.25vw solid white;
 	border-radius:1vw;
-}
-
-.element-g{ 
-   width: 100% ;             
-   background-color: white;
-}
-
-.vignette-g{
-  width: 100%;
 }
 
 .caption {      
@@ -286,52 +270,34 @@ aside{
 	grid-row: 5/7;
 }
 
+#acrivités img{
+	width: 100%;
+	border-top-left-radius: 1vw;
+  	border-top-right-radius:1vw ;
+}
+
 .vignette-g-ac1{
-  display: grid;
-  width: 100%;
-  height: 32.83vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
+    height: 32.83vw;
 }
 
 .vignette-g-ac2{
-  display: grid;
-  width: 100%;
-  height: 20.56vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
+   height: 20.56vw;
 }
 
 .vignette-g-ac3{
-  display: grid;
-  width: 100%;
-  height: 32.83vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
+   height: 32.83vw;
 }
 
 .vignette-g-ac4{
-  display: grid;
-  width: 100%;
-  height: 32.83vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
-}
+   height: 32.83vw;
+ }
 
 .vignette-g-ac5{
-  display: grid;
-  width: 100%;
   height: 20.56vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
 }
 
 .vignette-g-ac6{
-  display: grid;
-  width: 100%;
   height: 20.56vw;
-  border-top-left-radius: 1vw;
-  border-top-right-radius:1vw ;
 }
 
 .caption-ac{  
