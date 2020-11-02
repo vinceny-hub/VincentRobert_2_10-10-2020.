@@ -39,6 +39,15 @@ p{
 	font-weight: normal;
 }
 
+.logo img{
+	width: 19vw;
+	height: 9vw;
+}
+
+.links a{
+	font-size: 2.25vw;
+}
+
 .intro p{
 	font-size: 1.9vw;
 }
@@ -88,15 +97,15 @@ input{
 }
 
 .bouton a {
-display:block;
-width:12vw;
-line-height:4.5vw;
-text-align:center;
-background-color:#0065FC;
-color:white;
-text-decoration:none;
-border-top-right-radius: 1vw;
-border-bottom-right-radius: 1vw;
+	display:block;
+	width:12vw;
+	line-height:4.5vw;
+	text-align:center;
+	background-color:#0065FC;
+	color:white;
+	text-decoration:none;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
 }
 
 .bouton a:hover {
@@ -104,12 +113,12 @@ border-bottom-right-radius: 1vw;
 }
 
 .bouton a:active{
-padding: -0.1vw 0vw 0.1vw 0vw;
-border-bottom: 0.3vw solid #F2F2F2 ;
-border-top: 0.3vw solid #F2F2F2 ;
-border-right: 0.3vw solid #F2F2F2 ;
-line-height: 4.2vw;
-background-color: #c0c0c0;
+	padding: -0.1vw 0vw 0.1vw 0vw;
+	border-bottom: 0.3vw solid #F2F2F2 ;
+	border-top: 0.3vw solid #F2F2F2 ;
+	border-right: 0.3vw solid #F2F2F2 ;
+	line-height: 4.2vw;
+	background-color: #c0c0c0;
 }
 
 .filtres{
@@ -128,7 +137,7 @@ background-color: #c0c0c0;
 }
 
 .filtres a:hover{
-	font-size: 3.15vw;
+	font-size: 2.825vw;
 }
 
 .filtres i{
@@ -162,8 +171,7 @@ background-color: #c0c0c0;
     margin-right: 0.9vw;
     color: #0065FC;
  }
-/* mise en page , contient la section résultat*/
-/* grille des résultats et de l'aside */
+
 #hébergements{
 	display: grid;
 	grid-template-columns: 90vw;
@@ -191,8 +199,7 @@ background-color: #c0c0c0;
 	border-top-left-radius: 1.45vw;
 	border-top-right-radius: 1.45vw;
 }
-/* déclaration des différents contenus de la grille des résultats : 
-    titre Hébergements, titre populaire, Résultats, aside populaire et titre afficher plus. */
+
 .titre-boites{
 	align-self: center;
 	margin-left:2.65vw;
@@ -201,7 +208,7 @@ background-color: #c0c0c0;
 .t-afficher{
 	grid-column: 1/5;
 }
-/* Griille des vignettes et images du conteneur résultas*/
+
 .r-conteneur{
 	grid-column: 1/5;
 	align-self: center;
@@ -294,6 +301,7 @@ aside{
 }
 
 .a-conteneur a:hover h4{
+	padding-top: 1.5vw;
 	color: grey;
 	font-size: 2.57vw;
 	transition: all 0.2s ease 0s;
@@ -310,8 +318,7 @@ aside{
 	font-size: 2.55vw;
 	transition: all 0.2s ease 0s;
 }
-/* les titres du conteneur résultats */
-/* les boites de l'aside, augementation de 2vw la taille des columns*/
+
 .a-conteneur{
 	display: grid;
 	justify-content: center;
@@ -355,7 +362,7 @@ aside{
 	margin-left: 1vw;
 	margin-top: 3.5vw;
 }
-/* media activités tablette */
+
 #activités{
 	padding-top:1vw;
 	width: 90vw;
@@ -454,7 +461,7 @@ aside{
   border-radius:0vw;
   border-bottom-left-radius:1vw;
   border-bottom-right-radius:1vw; 
-  width: 100.1%;  
+  width: 100%;  
   height:5vw;
   line-height: 5vw;
   padding-left: 1vw;

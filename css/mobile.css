@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  
-}
 
 @media only screen and (min-width: 128px) and (max-width: 512px){
 
@@ -30,7 +24,7 @@ p{
 	font-weight: normal;
 }
 
-	/* entête centrage */
+/* entête centrage */
 header{
 	margin-top:2vw;
 	width: 90vw;
@@ -44,7 +38,7 @@ header{
 	width: 35vw; 
     height:15vw;
 }
-/* alignement et poisitionnement du texte de navigation */
+/* alignement et poisitionnement des liens de navigation */
 .links{
 	display: grid;
 	grid-template-columns:45vw 45vw;
@@ -54,8 +48,8 @@ header{
 	text-decoration:none;
 	color: black;
 	font-size: 1vw;
-
 }
+
 .h-a{
 	grid-column: 1/2;
 	grid-row: 2/3;
@@ -100,10 +94,7 @@ header{
 	border:none;
 	font-weight: bold;
 }
-/* je retire ici le souslignement */
-/* changement de couleur ds liens au passage de la souris */
 
-/* mettons de l'espace en les différents liens */
 .boitederecherche{
 	padding-top: 1vw;
 	width: 90vw;
@@ -536,7 +527,7 @@ aside{
 	border-radius: 0vw;
 	border-bottom-left-radius: 3vw;
 	border-bottom-right-radius: 3vw; 
- 	width: 99.9%;  
+ 	width:100%;  
 	height:12.85vw;
 	line-height: 12.85vw;
 	padding-left: 1vw;
