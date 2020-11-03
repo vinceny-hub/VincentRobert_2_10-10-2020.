@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 128px) and (max-width: 512px){
+@media only screen and (min-width: 0px) and (max-width: 512px){
 
 h1{
 	font-size: 6.15vw;
@@ -166,10 +166,11 @@ input{
 	justify-content: center;
 	border-radius: 50vw;
 	transition: all 0.45s ease 0s;
+	font-size: 4.7vw;
 }
 
 .filtres a:hover{
-	font-size: 4.75vw;
+	font-size: 4.7vw;
 }
 
 .filtres i{
@@ -182,11 +183,6 @@ input{
 .filtres h3{
 	transition: all 0.3s ease 0s;
 	font-size: 4.7vw;
-	margin: auto;
-}
-
-.filtres h3:hover{
-	font-size: 4.95vw;
 	margin: auto;
 }
 
@@ -289,24 +285,6 @@ input{
 
 .r-conteneur a:hover{
 	box-shadow: 0.95vw 0.95vw 0.95vw #318ce7;
-}
-
-.r-conteneur a:hover h4{
-	color: grey;
-	font-size: 4vw;
-	
-}
-
-.r-conteneur a:hover p{
-	color: grey;
-	font-size: 4vw;
-	
-}
-
-.r-conteneur a:hover i{
-	color:#318ce7;
-	font-size: 3.5vw;
-	
 }
 
 .item{
@@ -436,22 +414,7 @@ aside{
 }
 
 .a-conteneur a:hover{
-	box-shadow: 0.95vw 0.95vw 0.95vw gold;
-}
-
-.a-conteneur a:hover h4{
-	color: grey;
-	font-size: 3.95vw;
-}
-
-.a-conteneur a:hover p{
-	color: grey;
-	font-size: 3.95vw;
-}
-
-.a-conteneur a:hover i{
-	color:gold;
-	font-size: 3.75vw;
+	box-shadow: 0.95vw 0.95vw 0.95vw #318ce7;
 }
 
 #activités{
@@ -477,10 +440,6 @@ aside{
 #activités a:hover{
 	color: #318ce7;
 	box-shadow: 1vw 1vw 1vw #318ce7; 
-}
-
-#activités a:hover h4{
-	font-size: 4vw; 
 }
 
 .item-ac-t{

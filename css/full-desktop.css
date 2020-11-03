@@ -1,16 +1,14 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
   
 }
 
-/*centrage*/
 body{
-  width: 100%;
-  height:auto;
-  margin: auto;
-  font-family:'Raleway_400';
+	width:100%;
+	height:auto;
+	font-family:'Raleway_400';
 }
 /*Police du site*/
 @font-face {
@@ -199,6 +197,7 @@ input{
 	align-items: center;
 	justify-content: center;
 	border-radius: 50vw;
+	font-size: 1.45vw;
 	transition: all 0.45s ease 0s;
 }
 /*icones des fitres*/
@@ -216,10 +215,11 @@ input{
 }
 /*passage de la souris sur les filtres*/
 .filtres a:hover{
-	font-size:1.5vw;
+	font-size:1.45vw;
 	color: #318ce7;
 	box-shadow: 0.5vw 0.5vw 0.5vw #318ce7; 
 }
+
 /*partie phrase du nombre de logements disponibles dans cette ville*/
 /*positionnement*/
 #nombrehébergement{
@@ -314,26 +314,13 @@ img{
 .r-conteneur a:hover{
 	color: grey;
 	transition: all 0.2s ease 0s;
-	border: 0vw solid #F2F2F2;
+	
 	box-shadow: 0.35vw 0.35vw 0.35vw #318ce7;
-}
-
-.r-conteneur a:hover h4{
-	color: grey;
-	font-size: 1.05vw;
-	transition: all 0.2s ease 0s;
-}
-
-.r-conteneur a:hover p{
-	color: grey;
-	font-size:1.05vw;
-	transition: all 0.2s ease 0s;
 }
 
 .r-conteneur a:hover i{
 	color:#318ce7;
-	font-size:1.05vw;
-    transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
 }
 
 .r-conteneur a{
@@ -427,30 +414,13 @@ aside{
 
 .a-conteneur a:hover{
 	color: grey;
-	transition: all 0.2s ease 0s;
-	border: 0vw solid #F2F2F2;
-	box-shadow: 0.35vw 0.35vw 0.35vw gold;
-}
-
-.a-conteneur a:hover h4{
-	padding-top: 0.2vw;
-	color: grey;
-	font-size: 1.05vw;
-	transition: all 0.2s ease 0s;
-}
-
-.a-conteneur a:hover p{
-	color: grey;
-	font-size: 1.05vw;
-	transition: all 0.2s ease 0s;
+	box-shadow: 0.35vw 0.35vw 0.35vw #318ce7;
 }
 
 .a-conteneur a:hover i{
-	color:gold;
-	font-size: 1.05vw;
+	color:#318ce7;
 	transition: all 0.2s ease 0s;
 }
-
 /* déclaration des différents contenus de la grille des résultats : 
     titre Hébergements, titre populaire, Résultats, aside populaire et titre afficher plus. */
 /* les boites de l'aside */
@@ -521,10 +491,6 @@ aside{
 #activités a:hover{
 	color: #318ce7;
 	box-shadow: 0.5vw 0.5vw 0.5vw #318ce7; 
-}
-
-#activités a:hover h4{
-	font-size: 1.1vw; 
 }
 /*positionnement des différents items*/
 .item-ac-t{

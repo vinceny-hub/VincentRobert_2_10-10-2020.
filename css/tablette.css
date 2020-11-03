@@ -134,10 +134,11 @@ input{
 	align-items: center;
 	justify-content: center;
 	border-radius: 50vw;
+	font-size: 2.5vw;
 }
 
 .filtres a:hover{
-	font-size: 2.825vw;
+	font-size: 2.5vw;
 }
 
 .filtres i{
@@ -220,22 +221,6 @@ input{
 	grid-row-gap: 2.65vw;
 }
 
-.r-conteneur a:hover{
-	box-shadow: 0.6vw 0.6vw 0.6vw #318ce7;
-}
-
-.r-conteneur a:hover h4{
-	font-size: 2.35vw;
-}
-
-.r-conteneur a:hover p{
-	font-size: 2.35vw;
-}
-
-.r-conteneur a:hover i{
-	font-size: 2.35vw;
-}
-
 .hotel{
 	padding-top: 0.5vw;
 	padding-bottom: 0vw;
@@ -294,29 +279,6 @@ aside{
 .a-conteneur a{
 	border: 0.5vw solid white;
 	border-radius:1.45vw;
-}
-
-.a-conteneur a:hover{
-	box-shadow: 0.7vw 0.7vw 0.7vw gold;
-}
-
-.a-conteneur a:hover h4{
-	padding-top: 1.5vw;
-	color: grey;
-	font-size: 2.57vw;
-	transition: all 0.2s ease 0s;
-}
-
-.a-conteneur a:hover p{
-	color: grey;
-	font-size: 2.57vw;
-	transition: all 0.2s ease 0s;
-}
-
-.a-conteneur a:hover i{
-	color:gold;
-	font-size: 2.55vw;
-	transition: all 0.2s ease 0s;
 }
 
 .a-conteneur{
@@ -381,11 +343,7 @@ aside{
 
 #activités a:hover{
 	color: #318ce7;
-	box-shadow: 0.95vw 0.95vw 0.95vw #318ce7; 
-}
-
-#activités a:hover h4{
-	font-size: 1.95vw; 
+	box-shadow: 0.5vw 0.5vw 0.5vw #318ce7; 
 }
 
 .item-ac-t{
