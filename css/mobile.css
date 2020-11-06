@@ -122,6 +122,7 @@ input{
 .bouton a {
 	width:8vw;
 	line-height:8vw;
+	font-size: 4.5vw;
 	transition: all 0.45s ease 0s;
 }
 
@@ -140,7 +141,10 @@ input{
 #bouton2{
 	z-index: 1;
 	display: block;
+	width: 8vw;
+	height: 8vw;
 }
+
 
 #Rechercher{
 	display: none;
@@ -239,6 +243,7 @@ input{
     justify-content:center;
     margin-right: 3vw;
     color: #0065FC;
+    font-size: 4.75vw;
  }
 
  .info {
